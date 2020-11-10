@@ -102,10 +102,10 @@ async function getCustomer(dob, first_name, middle_name, last_name, license, sta
     }
 }
 
-let promise = getCustomer("1985-02-08", "James", "Robert", "Smith", "1234521321", "NSW", "2020-01-01");
-promise.then(data => {
-    console.log(data);
-}).catch(err => {
-    console.log(err.message)
-})
+// let promise = getCustomer("1985-02-08", "James", "Robert", "Smith", "1234521321", "NSW", "2020-01-01");
+// promise.then(data => {
+//     console.log(data);
+// }).catch(err => {
+//     console.log(err.message)
+// })
 
